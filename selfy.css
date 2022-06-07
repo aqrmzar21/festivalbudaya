@@ -1,0 +1,19 @@
+ul#navis li {
+    color: green;
+}
+
+.active {
+    color: gold;
+}
+
+/* ul#lunch li {
+    color: green;
+} */
+
+.fav {
+    color: goldenrod;
+}
+
+#lunch {
+    color: green;
+}
