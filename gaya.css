@@ -8,8 +8,10 @@
   /* Darker background for the navbar */
   color: #fff;
   padding: 15px 30px;
+  /* Padding sisi ditingkatkan sedikit */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  /* Pusatkan konten navbar */
   align-items: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   position: sticky;
@@ -17,6 +19,15 @@
   top: 0;
   z-index: 1000;
   /* Pastikan di atas konten lain */
+}
+
+.custom-navbar .navbar-brand {
+  flex-grow: 1;
+  /* Biarkan brand mengambil ruang sebanyak mungkin ke kiri */
+  text-align: left;
+  /* Teks brand rata kiri */
+  padding-left: 20px;
+  /* Tambahkan padding agar tidak terlalu mepet ke sudut */
 }
 
 .custom-navbar .navbar-brand a {
@@ -42,6 +53,8 @@
   position: relative;
   z-index: 1001;
   /* Pastikan di atas overlay */
+  margin-right: 20px;
+  /* Tambahkan margin agar tidak terlalu mepet ke sudut di mobile */
 }
 
 .navbar-toggler .toggler-icon {
@@ -71,12 +84,23 @@
 }
 
 /* Navbar Links (Menu) */
+.navbar-links {
+  flex-grow: 1;
+  /* Biarkan links mengambil ruang sebanyak mungkin ke kanan */
+  text-align: right;
+  /* Teks link rata kanan */
+  padding-right: 20px;
+  /* Tambahkan padding agar tidak terlalu mepet ke sudut */
+}
+
 .navbar-links ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   /* Rata samping (horizontal) untuk desktop */
+  justify-content: flex-end;
+  /* Rata kanan di dalam area links */
 }
 
 .navbar-links li {
@@ -164,12 +188,23 @@
 /* --- Responsive Adjustments for Navbar --- */
 @media (max-width: 768px) {
   .custom-navbar {
+    flex-wrap: wrap;
+    /* Izinkan wrap agar item bisa ke baris baru */
+    justify-content: space-between;
+    /* Brand di kiri, toggler di kanan */
     padding: 15px 20px;
+  }
+
+  .navbar-brand {
+    padding-left: 0;
+    /* Hapus padding tambahan di mobile */
   }
 
   .navbar-toggler {
     display: flex;
     /* Tampilkan toggler di mobile */
+    margin-right: 0;
+    /* Hapus margin tambahan di mobile */
   }
 
   .navbar-links {
@@ -178,6 +213,7 @@
     flex-direction: column;
     /* Menu vertikal di mobile */
     width: 100%;
+    /* Ambil lebar penuh */
     position: absolute;
     top: 100%;
     left: 0;
@@ -190,6 +226,10 @@
     /* Sembunyikan ke atas */
     overflow: hidden;
     /* Sembunyikan konten yang meluap */
+    text-align: left;
+    /* Rata kiri untuk menu mobile */
+    padding-right: 0;
+    /* Hapus padding kanan */
   }
 
   .navbar-links.active {
@@ -203,6 +243,8 @@
     flex-direction: column;
     /* Item menu vertikal */
     width: 100%;
+    justify-content: flex-start;
+    /* Mulai dari kiri */
   }
 
   .navbar-links li {
@@ -248,19 +290,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  /* Ubah background-color menjadi gradien orange untuk seluruh body */
   background: linear-gradient(135deg, #FF7F50, #FFD700);
-  /* Gradien Oranye-Kuning */
   display: flex;
   flex-direction: column;
-  /* Ubah ke column agar navbar di atas konten */
   justify-content: flex-start;
-  /* Konten dimulai dari atas */
   align-items: center;
-  /* Pusat secara horizontal */
   min-height: 100vh;
   color: #fff;
-  /* Default text color for the whole page */
   box-sizing: border-box;
 }
 
@@ -268,30 +304,21 @@ body {
 .container {
   width: 100%;
   max-width: 1000px;
-  /* Adjust based on desired max width */
   background-color: rgba(0, 0, 0, 0.5);
-  /* Ubah ke warna overlay transparan hitam */
   padding: 40px 20px;
-  /* Padding inside the main container */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  /* Subtle shadow */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   min-height: 900px;
-  /* Minimum height for the container to resemble image */
   position: relative;
-  /* Tambahkan ini untuk menempatkan overlay */
   overflow: hidden;
-  /* Pastikan tidak ada yang meluap */
   margin-top: 20px;
-  /* Jarak antara navbar dan container */
   margin-bottom: 20px;
-  /* Jarak bawah container sebelum footer */
 }
 
-/* Tambahkan overlay untuk gradien gambar background asli */
+/* Tambahkan overlay untuk gambar background asli */
 .container::before {
   content: '';
   position: absolute;
@@ -300,21 +327,17 @@ body {
   right: 0;
   bottom: 0;
   background-image: url('Itenas.jpg');
-  /* Menggunakan gambar Itenas yang diunggah */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.3;
-  /* Transparansi gambar latar belakang agar gradien terlihat */
   z-index: -1;
-  /* Pastikan di belakang konten */
 }
 
 /* Header Section */
 .header {
   margin-bottom: 40px;
   color: #f7f7f7;
-  /* Lighter color for header text */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -359,7 +382,6 @@ body {
   width: 60px;
   height: 3px;
   background-color: #f39c12;
-  /* Accent color for underline */
   border-radius: 2px;
 }
 
@@ -369,23 +391,19 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 15px;
-  /* Spacing between cards */
 }
 
 .profile-img-circle {
   width: 100px;
-  /* Default size for Dosen Pembimbing */
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid #f39c12;
-  /* Orange border as seen in image */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   background-color: #f0f0f0;
-  /* Default background for empty image */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -393,18 +411,14 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Crop image to fit circle */
   display: block;
 }
 
 .profile-img-circle .label {
   position: absolute;
   bottom: -10px;
-  /* Position below the circle */
   right: -10px;
-  /* Position to the right */
   background-color: #f39c12;
-  /* Background for label A, B, C, D */
   color: white;
   border-radius: 50%;
   width: 30px;
@@ -415,7 +429,6 @@ body {
   font-size: 0.9em;
   font-weight: bold;
   border: 2px solid white;
-  /* White border around label */
 }
 
 .profile-name {
@@ -431,37 +444,27 @@ body {
 .dosen-pembimbing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  /* Responsive grid */
   gap: 20px;
   justify-items: center;
-  /* Memusatkan item grid */
   width: 100%;
   max-width: 900px;
-  /* Limit width */
   margin-left: auto;
-  /* Memusatkan grid itu sendiri */
   margin-right: auto;
-  /* Memusatkan grid itu sendiri */
 }
 
 /* Specific Styles for Liaison Officer Grid */
 .liaison-officer-grid {
   display: flex;
   justify-content: center;
-  /* Center the items */
   flex-wrap: wrap;
-  /* Allow wrapping for smaller screens */
   gap: 15px;
-  /* Spacing between small cards */
   width: 100%;
 }
 
 .profile-card.small .profile-img-circle {
   width: 70px;
-  /* Smaller size for LO */
   height: 70px;
   border-width: 2px;
-  /* Thinner border */
 }
 
 .profile-card.small .profile-name-small {
@@ -478,7 +481,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  /* More spacing for these sections */
   width: 100%;
 }
 
@@ -487,7 +489,6 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
-  /* Slightly transparent dark background for role box */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -497,7 +498,6 @@ body {
   font-size: 1.1em;
   font-weight: 700;
   color: #f39c12;
-  /* Orange color for role title */
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -505,20 +505,16 @@ body {
 
 .profile-card .profile-img-circle.large {
   width: 140px;
-  /* Larger size for Kepala Suku */
   height: 140px;
   border-width: 4px;
-  /* Thicker border */
 }
 
 /* Footer Styling */
 .footer {
   width: 100%;
   margin-top: 50px;
-  /* Space above footer */
   padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  /* Subtle line above footer */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -535,10 +531,8 @@ body {
 
 .footer-logo {
   height: 50px;
-  /* Adjust logo size */
   object-fit: contain;
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
-  /* Light shadow for logos */
 }
 
 .footer-text p {
@@ -552,16 +546,12 @@ body {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  /* Izinkan wrapping untuk logo bawah */
   justify-content: center;
-  /* Pusatkan logo bawah */
 }
 
 .footer-bottom-icons img {
   height: 25px;
-  /* Size for small bottom icons */
   filter: invert(100%) brightness(80%);
-  /* Make them light and slightly dimmer */
 }
 
 .foot {
@@ -624,7 +614,6 @@ body {
 
   .foot {
     margin: 0rem 2em;
-    /* Sesuaikan margin foot di mobile */
     padding: 8px 10px;
   }
 }
@@ -651,7 +640,6 @@ body {
 
   .dosen-pembimbing-grid {
     grid-template-columns: repeat(2, 1fr);
-    /* 2 columns on very small screens */
   }
 
   .profile-img-circle {
@@ -682,7 +670,6 @@ body {
   .role-box {
     padding: 15px;
     margin-top: 15px;
-    /* Add margin top for role boxes on mobile */
   }
 
   .footer-logo {
@@ -695,7 +682,6 @@ body {
 
   .foot {
     margin: 0rem 1em;
-    /* Lebih kecil di layar sangat kecil */
     padding: 6px 8px;
   }
 }
