@@ -4,9 +4,9 @@
 /* --- Custom Navbar Styles --- */
 .custom-navbar {
   width: 100%;
-  background-color:rgba(255, 255, 255, 0.163);
   /* Darker background for the navbar */
-  color: #fd83096a;
+  background-color: #342101e8;
+  color: #f0f0f0;
   padding: 15px 30px;
   /* Padding sisi ditingkatkan sedikit */
   display: flex;
