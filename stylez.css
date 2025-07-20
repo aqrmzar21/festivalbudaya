@@ -152,11 +152,7 @@ body {
   /* Crop image to fit circle */
   display: block;
 }
-.label {
-  color: #f0f0f0;
-  background-color: #f39c12;
-  font-size: large;
-}
+
 
 .profile-img-circle  {
   position: absolute;
