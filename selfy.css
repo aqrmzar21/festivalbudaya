@@ -1,0 +1,82 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body dan latar */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f0e6;
+  /* Cream soft */
+  color: #212121;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #9b0000;
+  /* Merah gelap */
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+  color: #f5f0e6;
+  /* Cream */
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffe8d3;
+  background-color: #580000;
+  border-radius: 4px;
+}
+
+/* Container gambar utama */
+.container img {
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Jumbotron section */
+.jumbotron {
+  background-color: #212121;
+  color: #f5f0e6;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 5px solid #9b0000;
+  border-bottom: 5px solid #9b0000;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: #212121;
+  border: none;
+}
+
+.dropdown-item {
+  color: #f5f0e6;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #9b0000;
+  color: #ffe8d3;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2em;
+  }
+
+  .nav-link {
+    font-size: 0.95em;
+  }
+}
