@@ -414,9 +414,6 @@ body {
   display: block;
 }
 .badge  {
-   position: absolute;
-   top: 215px;
-   right: 20px;
    background-color: #f39c12;
    color: #f0f0f0;
    font-weight: bold;
