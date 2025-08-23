@@ -1,0 +1,28 @@
+{
+  "Dani Rusirawan": {
+    "nip": "405056902",
+    "mahasiswa": [
+      { "nama": "WA ODE MELINDA AMELIA", "nim": "E1F119036", "pt_asal": "UNIVERSITAS HALU OLEO", "program_studi": "TEKNIK REKAYASA INFRASTRUKTUR DAN LINGKUNGAN" },
+      { "nama": "FEBI ANDINI", "nim": "20441121", "pt_asal": "STMIK KAPUTAMA", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "AZWAR", "nim": "03320200002", "pt_asal": "UNIVERSITAS MUSLIM INDONESIA", "program_studi": "TEKNIK ELEKTRO" },
+      { "nama": "PARHAN PAUZI SALIM", "nim": "F55120095", "pt_asal": "UNIVERSITAS TADULAKO", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "SYARIFAH FATHIMAH AZ-ZAHRA", "nim": "2008107010011", "pt_asal": "UNIVERSITAS SYIAH KUALA", "program_studi": "INFORMATIKA" },
+      { "nama": "I MADE PAGARAT", "nim": "202162121054", "pt_asal": "UNIVERSITAS WARMADEWA", "program_studi": "ARSITEKTUR" },
+      { "nama": "YESSY PHALENTINA BR SAGALA", "nim": "203303040285", "pt_asal": "UNIVERSITAS PRIMA INDONESIA", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "MUHAMAD ARRAFI", "nim": "F1E120054", "pt_asal": "UNIVERSITAS JAMBI", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "LALU GARIN HIJRIATULLAH", "nim": "190601014", "pt_asal": "UNIVERSITAS HAMZANWADI", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "SUBHAN HADI", "nim": "200601054", "pt_asal": "UNIVERSITAS HAMZANWADI", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "VIONA THERESIA CHRISTIEN POLUAN", "nim": "04201094", "pt_asal": "INSTITUT TEKNOLOGI KALIMANTAN", "program_studi": "TEKNIK ELEKTRO" },
+      { "nama": "ALMAUN", "nim": "201955201022", "pt_asal": "UNIVERSITAS MUSAMUS MERAUKE", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "IRPANDI LEBANG", "nim": "1904411282", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "YOLIVIA LI", "nim": "2004411690", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "ALDAYANTI", "nim": "2004411706", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "ABDUL AKRAM", "nim": "531420025", "pt_asal": "UNIVERSITAS NEGERI GORONTALO", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "INTAN", "nim": "E1F120004", "pt_asal": "UNIVERSITAS HALU OLEO", "program_studi": "TEKNIK REKAYASA INFRASTRUKTUR DAN LINGKUNGAN" },
+      { "nama": "WILLYAM LUCAS APITULEY", "nim": "202072047", "pt_asal": "UNIVERSITAS PATTIMURA", "program_studi": "TEKNIK INDUSTRI" },
+      { "nama": "YEREMIAS PERIKAES", "nim": "231910132", "pt_asal": "IKIP PGRI PONTIANAK", "program_studi": "PENDIDIKAN TEKNOLOGI INFORMASI" },
+      { "nama": "MUHAMMAD AKBAR", "nim": "5193111006", "pt_asal": "UNIVERSITAS NEGERI MEDAN", "program_studi": "PENDIDIKAN TEKNIK BANGUNAN" },
+      { "nama": "APOLOS HOSYO", "nim": "2020RB05003", "pt_asal": "UNIVERSITAS VICTORY SORONG", "program_studi": "SISTEM INFORMASI" }
+    ]
+  }
+}

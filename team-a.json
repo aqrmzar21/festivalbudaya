@@ -1,0 +1,30 @@
+{
+  "Bernardinus Herbudiman": {
+    "nip": "423067401",
+    "mahasiswa": [
+      { "nama": "MEINA LISA", "nim": "191402032", "pt_asal": "UNIVERSITAS SUMATERA UTARA", "program_studi": "TEKNOLOGI INFORMASI" },
+      { "nama": "LASRIA HOTNAULI SITOMPUL", "nim": "202072014", "pt_asal": "UNIVERSITAS PATTIMURA", "program_studi": "TEKNIK INDUSTRI" },
+      { "nama": "AL ERRIS GASYA RASU", "nim": "2121000010", "pt_asal": "UNIVERSITAS POTENSI UTAMA", "program_studi": "DESAIN KOMUNIKASI VISUAL" },
+      { "nama": "M TESAR HADIANSAH", "nim": "20A1002", "pt_asal": "SEKOLAH TINGGI TEKNOLOGI NASIONAL", "program_studi": "TEKNIK MESIN" },
+      { "nama": "FREDYNAN SUKMA", "nim": "2041072", "pt_asal": "STMIK WIDYA CIPTA DHARMA", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "FERNANDO DIMAS DIPO", "nim": "2007220050", "pt_asal": "UNIVERSITAS MUHAMMADIYAH SUMATERA UTARA", "program_studi": "TEKNIK ELEKTRO" },
+      { "nama": "SYAHDAN HUSAIN", "nim": "521421025", "pt_asal": "UNIVERSITAS NEGERI GORONTALO", "program_studi": "TEKNIK ELEKTRO" },
+      { "nama": "JOSWAL YATALATTOP", "nim": "200605016", "pt_asal": "UNIVERSITAS HAMZANWADI", "program_studi": "TEKNIK LINGKUNGAN" },
+      { "nama": "DJAFAR SIDDIQ ASSEGAF", "nim": "F55120122", "pt_asal": "UNIVERSITAS TADULAKO", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "ZARINA ANNISA PADAULENG", "nim": "2013511058", "pt_asal": "UNIVERSITAS UDAYANA", "program_studi": "ILMU KELAUTAN" },
+      { "nama": "JUMLIA CADARWATI", "nim": "E1A120060", "pt_asal": "UNIVERSITAS HALU OLEO", "program_studi": "TEKNIK SIPIL" },
+      { "nama": "ASSRUL IPANDI", "nim": "20.01.015.018", "pt_asal": "UNIVERSITAS TEKNOLOGI SUMBAWA", "program_studi": "TEKNIK INDUSTRI" },
+      { "nama": "GRACE TRIVENA MANGADIL", "nim": "20211029", "pt_asal": "UNIVERSITAS NEGERI MANADO", "program_studi": "ARSITEKTUR" },
+      { "nama": "HESTI INDAH HASKINA", "nim": "1904411819", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "HASRIL", "nim": "2004411731", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "AULIA WINA SYAFITRI", "nim": "200602068", "pt_asal": "UNIVERSITAS HAMZANWADI", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "MARGARETHA FABIOLA S", "nim": "201955201107", "pt_asal": "UNIVERSITAS MUSAMUS MERAUKE", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "ESTISUNDARI", "nim": "20441164", "pt_asal": "STMIK KAPUTAMA", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "RADIL RAFLI AIMAR TRENGGANO", "nim": "202072039", "pt_asal": "UNIVERSITAS PATTIMURA", "program_studi": "TEKNIK INDUSTRI" },
+      { "nama": "DOMINIKUS SAKTI", "nim": "6160507200011", "pt_asal": "UNIVERSITAS KRISTEN INDONESIA PAULUS", "program_studi": "TEKNIK ELEKTRO" },
+      { "nama": "NISA IRALLA", "nim": "5192411002", "pt_asal": "UNIVERSITAS NEGERI MEDAN", "program_studi": "PENDIDIKAN TEKNIK BANGUNAN" },
+      { "nama": "YOHOSWA DJAHANSEN LAURENS", "nim": "2020RB05023", "pt_asal": "UNIVERSITAS VICTORY SORONG", "program_studi": "SISTEM INFORMASI" }
+    ]
+  }
+
+}

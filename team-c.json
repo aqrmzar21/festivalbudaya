@@ -1,0 +1,29 @@
+{
+  "Alfan Ekajati Latief": {
+    "nip": "401098806",
+    "mahasiswa": [
+      { "nama": "MUHAMMAD ALI IMRAN NST", "nim": "20451068", "pt_asal": "STMIK KAPUTAMA", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "DAL JAHRA", "nim": "2019051014001", "pt_asal": "UNIVERSITAS CENDERAWASIH", "program_studi": "MATEMATIKA" },
+      { "nama": "FEBRI", "nim": "202010142", "pt_asal": "STIE MAKASSAR BONGAYA", "program_studi": "MANAJEMEN" },
+      { "nama": "JUNINDA RAHLIANI J", "nim": "202072018", "pt_asal": "UNIVERSITAS PATTIMURA", "program_studi": "TEKNIK INDUSTRI" },
+      { "nama": "LALU NORA WINARDI", "nim": "200605020", "pt_asal": "UNIVERSITAS HAMZANWADI", "program_studi": "TEKNIK LINGKUNGAN" },
+      { "nama": "SATRIO ARDY KURNIAWAN", "nim": "2043073", "pt_asal": "STMIK WIDYA CIPTA DHARMA", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "SELVANA Y UMAR", "nim": "521421007", "pt_asal": "UNIVERSITAS NEGERI GORONTALO", "program_studi": "TEKNIK ELEKTRO" },
+      { "nama": "HIKMA PURNAMA LESTARI", "nim": "E1A120057", "pt_asal": "UNIVERSITAS HALU OLEO", "program_studi": "TEKNIK SIPIL" },
+      { "nama": "SEFI RATIWI", "nim": "200202056", "pt_asal": "UNIVERSITAS SAMUDRA", "program_studi": "EKONOMI PEMBANGUNAN" },
+      { "nama": "ALFI SAHRI ALDI", "nim": "200602002", "pt_asal": "UNIVERSITAS HAMZANWADI", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "ARICO SEMPANA GINTING", "nim": "203303040276", "pt_asal": "UNIVERSITAS PRIMA INDONESIA", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "ATHALYA KHANZA PERMANA", "nim": "2004109010045", "pt_asal": "UNIVERSITAS SYIAH KUALA", "program_studi": "TEKNIK GEOLOGI" },
+      { "nama": "AAVRI ISWANDI", "nim": "F55120090", "pt_asal": "UNIVERSITAS TADULAKO", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "JONATHAN ZEBINA LAALA", "nim": "F55120097", "pt_asal": "UNIVERSITAS TADULAKO", "program_studi": "TEKNIK INFORMATIKA" },
+      { "nama": "LINDA RAHMANI", "nim": "200601040", "pt_asal": "UNIVERSITAS HAMZANWADI", "program_studi": "SISTEM INFORMASI" },
+      { "nama": "ADAM SUHANDI", "nim": "21314023", "pt_asal": "UNIVERSITAS TEKNOKRAT INDONESIA", "program_studi": "TEKNIK SIPIL" },
+      { "nama": "BILLY JONATHAN", "nim": "1904411787", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "MUH RADIFANSYAH R", "nim": "2004411415", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "MUH ALFRYAN PRATAMA S", "nim": "2004411692", "pt_asal": "UNIVERSITAS COKROAMINOTO PALOPO", "program_studi": "INFORMATIKA" },
+      { "nama": "RIYAN ROLIANDA", "nim": "210130016", "pt_asal": "UNIVERSITAS MALIKUSSALEH", "program_studi": "TEKNIK INDUSTRI" },
+      { "nama": "ALMALIK FAJAR SYAMIUM", "nim": "200303501063", "pt_asal": "UNIVERSITAS NEGERI MAKASSAR", "program_studi": "ILMU KEOLAHRAGAAN" },
+      { "nama": "PAULUS ALESANDRO", "nim": "231910089", "pt_asal": "IKIP PGRI PONTIANAK", "program_studi": "PENDIDIKAN TEKNOLOGI INFORMASI" }
+    ]
+  }
+}
